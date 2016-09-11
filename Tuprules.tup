@@ -1,0 +1,11 @@
+#
+# Compilation Rules
+#
+
+CC       = cc
+
+CFLAGS  += -O2
+CFLAGS  += -std=gnu99 -Wextra -Werror
+CFLAGS  += -pipe
+CFLAGS  += -I../include/
+#CFLAGS  += -g
