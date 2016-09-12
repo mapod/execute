@@ -9,3 +9,5 @@ CFLAGS  += -std=gnu99 -Wextra -Werror
 CFLAGS  += -pipe
 CFLAGS  += -I../include/
 #CFLAGS  += -g
+
+CSHARED += -shared 

@@ -53,9 +53,7 @@ char * path = find("sl");
 exec("rm", path);
 free(path);
 ```
-
 compile with `cc code.c -larcane-execution`.
-or with `cc code.c -larcane-execution -larcane-enchantment` if you enabled enchantment.
 
 ## License
 

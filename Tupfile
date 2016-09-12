@@ -1,5 +1,5 @@
 include_rules
-#: src/find.o src/exec.o src/execute.o |> $(CC) -shared -o %o %f |> lib/libarcane-execution.so
+#: src/find.o src/exec.o src/execute.o |> $(CC) $(CSHARED) -o %o %f |> lib/libarcane-execution.so
 #: src/find.o src/exec.o src/execute.o |> ar -vq %o %f           |> lib/libarcane-execution.a
 : src/*.o |> $(CC) -shared -o %o %f |> lib/libarcane-execution.so
 : src/*.o |> ar -vq %o %f           |> lib/libarcane-execution.a
