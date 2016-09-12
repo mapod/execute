@@ -2,6 +2,6 @@
 #include<arc/execute/namespace.h>
 
 int main (int argc, char ** argv) {
-	char *args[] = &( argv[1] );
+	char **args = &( argv[1] );
 	return execute(args);
 }
